@@ -6,11 +6,13 @@ int n;
 clrscr();
 printf("\n enter num=");
 scanf("%d",&n);
-if(n%2==0)
+if(n>0)
 {
-printf("even");
+printf("positive");
 }
+elseif(n<0)
+printf("negative");
 else
-printf("odd");
+printf("zero")
 getch();
 }
